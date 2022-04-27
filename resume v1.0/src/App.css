@@ -1,0 +1,254 @@
+.left-side {
+  flex: 1.35;
+  background: rgba(255, 255, 255, 0.1);
+  margin: 5px 0 5px 5px;
+  border-radius: 5px;
+  color: white;
+}
+
+.right-side {
+  flex: 2;
+  background: white;
+  margin: 5px 5px 5px 0;
+  border-radius: 5px;
+  padding: 1rem;
+  overflow: hidden;
+}
+
+.name {
+  padding: 1rem;
+  margin-bottom: 7rem;
+}
+
+.name h1 {
+  font-size: 5rem;
+}
+
+.name h3 {
+  font-size: 2.5rem;
+  font-weight: normal;
+  margin-bottom: 0.5rem;
+}
+
+.name p {
+  font-size: 0.9rem;
+}
+
+.about {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.2);
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 1rem;
+  padding-top: 7rem;
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.about h1 {
+  font-size: 1.25rem;
+  margin-bottom: 0.75rem;
+}
+
+.about img {
+  width: 120px;
+  border: 3px solid white;
+  border-radius: 12px;
+  position: absolute;
+  left: 50%;
+  top: -60px;
+  transform: translateX(-50%);
+}
+
+.about p {
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+  text-align: justify;
+}
+
+.details,
+.languages,
+.hobbies {
+  padding: 1rem;
+}
+
+.details .title,
+.languages .title,
+.hobbies .title {
+  font-size: 1.75rem;
+  padding-bottom: 1.25rem;
+}
+
+.detail:not(.detail:last-child),
+.language:not(.language:last-child) {
+  margin-bottom: 1rem;
+}
+
+.detail {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  height: 30px;
+  border-radius: 90000px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.detail img {
+  width: 30px;
+  border-radius: 50%;
+  background: white;
+  padding: 1px;
+  margin-right: 1rem;
+}
+
+.detail p {
+  font-size: 0.9rem;
+}
+
+.language {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.language h3 {
+  font-size: 0.9rem;
+  flex: 1;
+  font-weight: normal;
+}
+
+.progress-container {
+  flex: 2.75;
+  height: 15px;
+  border: 1px solid white;
+  border-radius: 90000px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  background: white;
+  height: 100%;
+  color: gray;
+  font-size: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hobbies-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.hobby {
+  display: flex;
+  width: 35%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0.75rem;
+}
+
+.hobby img {
+  width: 65px;
+  height: 65px;
+  background: white;
+  border-radius: 50%;
+  padding: 5px;
+  border: 3px solid grey;
+  margin-bottom: 0.5rem;
+}
+
+.hobby h3 {
+  font-size: 0.9rem;
+}
+
+.separator {
+  width: 180px;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(80, 141, 161),
+    rgb(87, 155, 87)
+  );
+  height: 25px;
+  border-radius: 90000px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  position: relative;
+  z-index: 10000;
+  color: white;
+  font-size: 0.9rem;
+}
+
+.separator:not(.separator:first-child) {
+  margin-top: 1rem;
+}
+
+.separator::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: -145%;
+  width: 150%;
+  height: 2px;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(80, 141, 161),
+    rgb(87, 155, 87)
+  );
+}
+
+.separator img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: white;
+  margin: 2px;
+  margin-right: 0.5rem;
+}
+
+.projects-list,
+.skills-list,
+.informatique-list,
+.informatique-sudo-list {
+  margin-left: 1rem;
+}
+
+.formation-title,
+.experience-title {
+  font-weight: 900;
+  margin-bottom: 0.125rem;
+}
+
+.formation-period,
+.experience-period {
+  font-weight: bold;
+  font-size: 0.9rem;
+  margin-bottom: 0.25rem;
+  color: rgb(87, 155, 87);
+}
+
+.experience:not(.experience:last-child),
+.formation:not(.formation:last-child) {
+  margin-bottom: 1rem;
+}
+
+.project,
+.skill {
+  margin-bottom: 0.25rem;
+}
+
+.key {
+  margin-bottom: 0.75rem;
+}
+
+.category {
+  margin-bottom: 0.35rem;
+}
+
+.category-item {
+  margin-bottom: 0.25rem;
+}

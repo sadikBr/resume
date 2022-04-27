@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  width: 100vw;
+  min-height: 100vh;
+  overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+  background: gray;
+}
+
+#root {
+  width: 793px;
+  height: 1122px;
+  background: white;
+}
+
+.resume {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  gap: 5px;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(80, 141, 161),
+    rgb(87, 155, 87)
+  );
+}
