@@ -5,7 +5,7 @@ import {
   Formation,
   Projets,
   Competences,
-  Interet,
+  // Interet,
   Langue,
   Experiences,
 } from './Components';
@@ -14,7 +14,7 @@ import {
   formation,
   projets,
   competences,
-  interet,
+  // interet,
   langues,
   experiences,
 } from './brahim-informatique';
@@ -32,7 +32,7 @@ function Resume() {
         <div className='right'>
           <Competences competences={competences} />
           <Langue langues={langues} />
-          <Interet interet={interet} />
+          {/* <Interet interet={interet} /> */}
         </div>
       </div>
     </div>

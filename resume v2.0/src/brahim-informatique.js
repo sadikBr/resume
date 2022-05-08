@@ -14,6 +14,10 @@ const top = {
           'https://cdn.icon-icons.com/icons2/2248/PNG/512/phone_icon_136322.png',
         value: '+212 668 42 46 37',
       },
+      {
+        image: 'https://cdn-icons-png.flaticon.com/512/25/25231.png',
+        value: 'https://github.com/sadikBr',
+      },
     ],
     [
       {
@@ -53,10 +57,12 @@ const formation = [
 ];
 
 const projets = {
-  'Built a webscraper to extract the list of disney movies from a wikipedia page (Name, Release Date, Producer, Director ....)':
-    ['Nodejs', 'Nodejs Modules (axios, cheerio)'],
-  'built a rest api around the scrapped information mentioned in the previous project':
-    ['Nodejs', 'Express', 'Mongoose'],
+  'Built a tinder website clone': ['Nodejs', 'Reactjs', 'MongoDB', 'Express'],
+  'Built a real time chat application (Whatsapp Clone)': [
+    'React',
+    'Bootstrap',
+    'Socket.io',
+  ],
   'Built an e-commerce Website': [
     'HTML',
     'CSS (pico.css)',
@@ -64,12 +70,6 @@ const projets = {
     'Nodejs',
     'Nodejs Modules (express, cors, helmet, mysql)',
   ],
-  'Built multiple games in order to strengthen my react framework knowledge (Quiz Game, Memory Game, Hangman)':
-    [
-      'Virtual Dom',
-      'Functional Components',
-      'React Hooks (useState, useEffect, useCallback)',
-    ],
   'Reddit Home page clone (Front end), Preview: https://redddit.vercel.app': [
     'Reddit Public API',
     'React',
@@ -79,10 +79,14 @@ const projets = {
     'React',
     'Nodejs Modules (chart.js, leaflet (interactive map), numeral)',
   ],
-  // 'Built an audio player that connects and gets audio streams from youtube API (Not Finished)':
-  //   ['Vuejs', 'Vuex', 'Vuerify', 'Nodejs Modules (axios, ytdl-core)'],
-  'Building from Scratch a Python implementation of linear regression, logistic regression and neural networks':
-    ['Gradient Descent', 'Numpy', 'Pandas', 'Matplotlib'],
+  'Built an audio player that connects and gets audio streams from youtube API (Not Finished)':
+    ['Vuejs', 'Vuex', 'Vuetify', 'Nodejs Modules (axios, ytdl-core)'],
+  'Built multiple games in order to strengthen my react framework knowledge (Quiz Game, Memory Game, Hangman)':
+    [
+      'Virtual Dom',
+      'Functional Components',
+      'React Hooks (useState, useEffect, useCallback)',
+    ],
   'Hand-written digit recognition': [
     'Classification',
     'Logistic Regression',
@@ -93,8 +97,8 @@ const projets = {
 
 const langues = [
   'Arabic (mother tongue)',
-  'French (fluent)',
   'English (fluent)',
+  'French (fluent)',
 ];
 
 const interet = ['Programming', 'Automation', 'Voyages', 'Music'];
@@ -104,17 +108,21 @@ const competences = {
     'Probability',
     'Calculus',
   ],
+  'Operating Systems': ['Linux', 'Windows'],
   'Programming Languages': ['C, C++', 'Python', 'VBA'],
   'Web Developpement': ['HTML', 'CSS', 'Javascript', 'nodejs'],
   'Nodejs Modules': [
     'Express',
+    'Socket.io',
     'Cors',
     'Axios',
     'Node-fetch',
     'MySql',
     'Mongoose',
+    'Knex',
   ],
-  'Web Frameworks': ['React', 'Vuejs'],
+  'Frontend Web Frameworks': ['React', 'Vuejs'],
+  'Backend Web Frameworks': ['Feathers'],
   'Database Management': ['Oracle', 'MySQL', 'MongoDB'],
   'Artificial Intelligence (beginner)': [
     'Algorithms',
@@ -124,6 +132,7 @@ const competences = {
     'Neural Networks',
   ],
   'Data Preprocessing, Data Visualisation': ['Pandas', 'Matplotlib'],
+  'Version Control': ['git', 'github'],
   Logiciels: ['Matlab', 'Arena', 'CATIA v5'],
   'Soft Skills': ['Teamwork', 'Communication', 'Serious', 'Problem Solving'],
 };
