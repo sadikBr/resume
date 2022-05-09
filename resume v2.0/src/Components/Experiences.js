@@ -3,7 +3,7 @@ import React from 'react';
 function Experiences({ experiences }) {
   return (
     <div className='experiences'>
-      <h1 className='title'>Professional Experiences</h1>
+      <h1 className='title'>Experiences Professionnelles</h1>
       {experiences.map((exp) => (
         <div className='experience'>
           <h1>{exp.type}</h1>

@@ -1,7 +1,7 @@
 function Projets({ projets }) {
   return (
     <div className='projets'>
-      <h1 className='title'>Projects</h1>
+      <h1 className='title'>Projets</h1>
       <ul>
         {Object.keys(projets).map((key) => (
           <>

@@ -17,7 +17,7 @@ import {
   // interet,
   langues,
   experiences,
-} from './brahim-informatique';
+} from './informations8.js';
 
 function Resume() {
   return (
@@ -28,10 +28,10 @@ function Resume() {
           <Formation formation={formation} />
           <Experiences experiences={experiences} />
           <Projets projets={projets} />
+          <Langue langues={langues} />
         </div>
         <div className='right'>
           <Competences competences={competences} />
-          <Langue langues={langues} />
           {/* <Interet interet={interet} /> */}
         </div>
       </div>

@@ -34,7 +34,7 @@ const top = {
 
 const formation = [
   {
-    niveau: "Cycle d'ingénieur",
+    niveau: "Cycle d'ingénieur - Genie Industriel et Logistique",
     ecole: 'Ecole Nationale des Sciences Appliquées de Marrakech',
     periode: '2018 - 2021',
     description: 'Formation en génie industriel et logistique',
