@@ -57,7 +57,6 @@ const formation = [
 ];
 
 const projets = {
-  'Built a tinder website clone': ['Nodejs', 'Reactjs', 'MongoDB', 'Express'],
   'Built a real time chat application (Whatsapp Clone)': [
     'React',
     'Bootstrap',
@@ -70,29 +69,30 @@ const projets = {
     'Nodejs',
     'Nodejs Modules (express, cors, helmet, mysql)',
   ],
-  'Reddit Home page clone (Front end), Preview: https://redddit.vercel.app': [
-    'Reddit Public API',
-    'React',
-    'Nodejs Modules (axios, markdown-it, timeago.js)',
-  ],
   'Covid 19 tracker, Preview: https://brahim-covid-19-tracker.vercel.app': [
     'React',
     'Nodejs Modules (chart.js, leaflet (interactive map), numeral)',
   ],
-  'Built an audio player that connects and gets audio streams from youtube API (Not Finished)':
-    ['Vuejs', 'Vuex', 'Vuetify', 'Nodejs Modules (axios, ytdl-core)'],
-  'Built multiple games in order to strengthen my react framework knowledge (Quiz Game, Memory Game, Hangman)':
-    [
-      'Virtual Dom',
-      'Functional Components',
-      'React Hooks (useState, useEffect, useCallback)',
-    ],
-  'Hand-written digit recognition': [
-    'Classification',
-    'Logistic Regression',
-    'Gradient Descent',
-    'MNIST Dataset',
-  ],
+  'Built a tinder website clone': ['Nodejs', 'Reactjs', 'MongoDB', 'Express'],
+  // 'Reddit Home page clone (Front end), Preview: https://redddit.vercel.app': [
+  //   'Reddit Public API',
+  //   'React',
+  //   'Nodejs Modules (axios, markdown-it, timeago.js)',
+  // ],
+  // 'Built an audio player that connects and gets audio streams from youtube API (Not Finished)':
+  //   ['Vuejs', 'Vuex', 'Vuetify', 'Nodejs Modules (axios, ytdl-core)'],
+  // 'Built multiple games in order to strengthen my react framework knowledge (Quiz Game, Memory Game, Hangman)':
+  //   [
+  //     'Virtual Dom',
+  //     'Functional Components',
+  //     'React Hooks (useState, useEffect, useCallback)',
+  //   ],
+  // 'Hand-written digit recognition': [
+  //   'Classification',
+  //   'Logistic Regression',
+  //   'Gradient Descent',
+  //   'MNIST Dataset',
+  // ],
 };
 
 const langues = [
@@ -138,6 +138,19 @@ const competences = {
 };
 
 const experiences = [
+  {
+    type: 'Internship | Capgemini Engineering',
+    periode: '18 may - 18 august 2022',
+    sujet:
+      'Build a full stack application to calculate co2 emissions related to company activities',
+    description: [
+      'Used Technologies: REACT, NODE.JS, MONGODB',
+      'Designed a NoSQL mongo database and built an api to query it using node.js and express',
+      'Built an authentication system for the application',
+      "Used third party API's to get co2 emissio factors and calculate co2 estimations",
+      'Used the REACT Framework to build a Mobile responsive UI, with multiple routes, pages and components',
+    ],
+  },
   {
     type: 'Project Of End Of Studies Internship | AIC Métallurgie',
     periode: '01 april - 01 august 2021',

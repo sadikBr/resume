@@ -1,7 +1,7 @@
 function Competences({ competences }) {
   return (
     <div className='projets'>
-      <h1 className='title'>Competences</h1>
+      <h1 className='title'>Skills</h1>
       <ul>
         {Object.keys(competences).map((key) => (
           <>

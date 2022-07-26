@@ -11,7 +11,7 @@ const top = {
       },
       {
         image:
-          'https://cdn.icon-icons.com/icons2/2248/PNG/512/phone_icon_136322.png',
+          'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.onlinewebfonts.com%2Fsvg%2Fimg_97207.png&f=1&nofb=1',
         value: '+212 698 671 170',
       },
     ],
@@ -36,7 +36,7 @@ const formation = [
   {
     niveau: "Cycle d'ingénieur",
     ecole: 'Ecole Nationale des Sciences Appliquées de Marrakech',
-    periode: '2018 - Présent',
+    periode: '2018 - Present',
     description:
       'Génie électrique, systèmes électroniques embarqués et commande des systèmes.',
   },
@@ -46,28 +46,21 @@ const formation = [
     periode: '2016 - 2018',
   },
   {
-    niveau: 'Baccalaureat Sciences Mathématiques',
+    niveau: 'Baccalaureat Sciences Mathematiques',
     ecole: 'Groupe Scolaire Azzaitoune - Settat',
     periode: '2015 - 2016',
   },
 ];
 
 const projets = {
-  'Le diagnostic et la commande tolérante aux défauts de la machine asynchrone.':
-    [
-      'Matlab / Simulink',
-      'Commande vectorielle',
-      'Onduleur',
-      "MLI (Modulation de largeur d'impulsion)",
-      'Fuzzy logic',
-    ],
-  'Régulation et commande de la vitesse et position du moteur à courant continue.':
-    ['Matlab / Simulink', 'PI (Proportionnel Integral)', 'Fuzzy logic'],
-  "Etude et simulation d'une fonction d'ADAS: CC":
-    ['Matlab / Simulink / Stateflow', 'Cruise Control'],
   "Conception d'un microprocesseur 16-bit sur FPGA": ['VHDL', 'Quartus II'],
-  "Commande de l'éclairage public et affichage de la temperature à base de PIC 16F877A.":
-    ['C', 'MikroC', 'ISIS'],
+  "Conception d'un mini-calculateur": ['VHDL', 'TestBench', 'ModelSim'],
+  "Etude et simulation d'une fonction d'ADAS: CC": [
+    'Matlab / Simulink / Stateflow',
+    'Cruise Control',
+  ],
+  "Commande de l'éclairage et affichage de la temperature à base de PIC 16F877A.":
+    ['MikroC', 'Proteus'],
 };
 
 const langues = [
@@ -89,7 +82,6 @@ const competences = {
   ],
   'Systèmes embarqués et dispositifs programmables': [
     'FPGA',
-    'DSP',
     'Microcontrôleurs PIC16Fxx',
     'Microprocesseur MIPS',
     'Nios II',
@@ -107,9 +99,10 @@ const competences = {
     'Matlab / Simulink',
     'MikroC',
     'ISIS Proteus',
-    'MPLAB',
-    'Quartus II',
     'Modelsim',
+    'Quartus II',
+    'Eclipse',
+    'MPLAB',
     'Code Blocks',
   ],
   'Bus et protocoles de communication': ['CAN', 'LIN', 'SPI', 'I2C', 'UART'],
@@ -128,17 +121,21 @@ const competences = {
 
 const experiences = [
   {
-    type: "Stage d'observation | Leoni Wiring System",
-    periode: '15 juillet - 15 août 2020',
-    description: [],
+    type: "Projet de fin d'étude | STELLANTIS",
+    periode: '07 mars - 31 août 2022',
+    sujet:
+      'Automatisation de la conception des architectures électroniques électriques pour les fonctions de service élémentaire :',
+    description: [
+      'Génération des vues fonctionnelles et organico-fonctionnelles.',
+      "Réalisation d'une interface homme-machine en utilisant PyQt et Python.",
+    ],
   },
   {
-    type: "Stage d'application | ONEE",
-    periode: '15 juillet - 15 septembre 2021',
-    sujet: 'Protection du réseau électrique :',
+    type: "Stage d'observation | Leoni Wiring System",
+    periode: '15 juillet - 15 août 2020',
     description: [
-      'Généralités et constitution du réseau électrique.',
-      'Découvrir les différents types de protection (principe de fonctionnement, avantages et inconvénients)',
+      "Description physique d'un faisceau électrique pour l'automobile.",
+      'Processus de fabrication des faisceaux.',
     ],
   },
 ];
