@@ -1,7 +1,7 @@
 const top = {
   name: 'TAOUIL OMAR',
   description:
-    "Dynamique et motivé. Je suis élève ingénieur en systèmes électroniques embarqués et commande des systèmes, à la recherche d'un stage projet de fin d'étude pour une durée de minimum quatre mois.",
+    "Dynamique et motivé. Je suis élève ingénieur en systèmes électroniques embarqués et commande des systèmes, à la recherche d'une première expérience.",
   contacts: [
     [
       {
@@ -11,7 +11,7 @@ const top = {
       },
       {
         image:
-          'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.onlinewebfonts.com%2Fsvg%2Fimg_97207.png&f=1&nofb=1',
+          'https://cdn.icon-icons.com/icons2/2248/PNG/512/phone_icon_136322.png',
         value: '+212 698 671 170',
       },
     ],
@@ -36,7 +36,7 @@ const formation = [
   {
     niveau: "Cycle d'ingénieur",
     ecole: 'Ecole Nationale des Sciences Appliquées de Marrakech',
-    periode: '2018 - Present',
+    periode: '2018 - 2022',
     description:
       'Génie électrique, systèmes électroniques embarqués et commande des systèmes.',
   },
@@ -54,13 +54,12 @@ const formation = [
 
 const projets = {
   "Conception d'un microprocesseur 16-bit sur FPGA": ['VHDL', 'Quartus II'],
-  "Conception d'un mini-calculateur": ['VHDL', 'TestBench', 'ModelSim'],
-  "Etude et simulation d'une fonction d'ADAS: CC": [
-    'Matlab / Simulink / Stateflow',
-    'Cruise Control',
-  ],
+  "Implémentation de l'algorithme Bresenham dans la carte NIOS II":
+    ['Eclipse', 'C'],
+  "Simulation de la communication série entre deux microcontrôleur PIC 16F877 via le bus UART et I2C.":
+    ['C', 'MicroC', 'Proteus'],
   "Commande de l'éclairage et affichage de la temperature à base de PIC 16F877A.":
-    ['MikroC', 'Proteus'],
+    ['C', 'MikroC', 'Proteus'],
 };
 
 const langues = [
@@ -105,14 +104,13 @@ const competences = {
     'MPLAB',
     'Code Blocks',
   ],
-  'Bus et protocoles de communication': ['CAN', 'LIN', 'SPI', 'I2C', 'UART'],
+  'Bus et protocoles de communication': ['CAN', 'LIN'],
   'Automatique et Automatique avancée': [
     'Identification',
     'Régulation industrielle',
     "Grandeur d'état",
     'Modélisation des systèmes',
   ],
-  'Notion de base': ['AUTOSAR'],
   'Electrotechnique et électronique de puissance': [
     'Modélisation et commande des machines tournantes: à courant continue, asynchrone, synchrone, brushless sur Matlab/Simulink',
   ],
@@ -123,10 +121,11 @@ const experiences = [
   {
     type: "Projet de fin d'étude | STELLANTIS",
     periode: '07 mars - 31 août 2022',
-    sujet:
-      'Automatisation de la conception des architectures électroniques électriques pour les fonctions de service élémentaire :',
+    sujet: 'Automatisation de la conception des architectures électroniques électriques pour les fonctions de service élémentaire :',
     description: [
       'Génération des vues fonctionnelles et organico-fonctionnelles.',
+      "Visualisation des interactions entre les sous-systèmes et les Fonctions Allouables.",
+      "Identification des Fonctions Allouables et leurs appartenances aux calculateurs.",
       "Réalisation d'une interface homme-machine en utilisant PyQt et Python.",
     ],
   },
@@ -135,7 +134,7 @@ const experiences = [
     periode: '15 juillet - 15 août 2020',
     description: [
       "Description physique d'un faisceau électrique pour l'automobile.",
-      'Processus de fabrication des faisceaux.',
+      "Processus de fabrication des faisceaux."
     ],
   },
 ];

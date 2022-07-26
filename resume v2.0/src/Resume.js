@@ -17,7 +17,7 @@ import {
   // interet,
   langues,
   experiences,
-} from './brahim-informatique.js';
+} from './informations';
 
 function Resume() {
   return (
