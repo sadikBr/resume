@@ -1,7 +1,7 @@
 const top = {
   name: 'TAOUIL OMAR',
   description:
-    "Dynamique et motivé. Je suis élève ingénieur en systèmes électroniques embarqués et commande des systèmes, à la recherche d'une première expérience.",
+    "Dynamique et motivé. Je suis un ingénieur d'état en systèmes électroniques embarqués et commande des systèmes, à la recherche d'une première expérience.",
   contacts: [
     [
       {
@@ -11,8 +11,13 @@ const top = {
       },
       {
         image:
-          'https://cdn.icon-icons.com/icons2/2248/PNG/512/phone_icon_136322.png',
+          'https://static.vecteezy.com/system/resources/previews/003/720/498/original/phone-icon-telephone-icon-symbol-for-app-and-messenger-vector.jpg',
         value: '+212 698 671 170',
+      },
+      {
+        image:
+          'https://t4.ftcdn.net/jpg/03/47/13/43/360_F_347134350_dhjJjzA1fuGvXOyNgCJYfOEby04ljhEC.jpg',
+        value: 'Permis B (4 ans)',
       },
     ],
     [
@@ -53,11 +58,11 @@ const formation = [
 ];
 
 const projets = {
-  "Conception d'un microprocesseur 16-bit sur FPGA": ['VHDL', 'Quartus II'],
-  "Implémentation de l'algorithme Bresenham dans la carte NIOS II":
-    ['Eclipse', 'C'],
-  "Simulation de la communication série entre deux microcontrôleur PIC 16F877 via le bus UART et I2C.":
-    ['C', 'MicroC', 'Proteus'],
+  "Conception d'un microprocesseur 16-bit sur FPGA.": ['VHDL', 'Quartus II'],
+  "Implémentation de l'algorithme Bresenham dans la carte NIOS II.": [
+    'Eclipse',
+    'C',
+  ],
   "Commande de l'éclairage et affichage de la temperature à base de PIC 16F877A.":
     ['C', 'MikroC', 'Proteus'],
 };
@@ -121,12 +126,22 @@ const experiences = [
   {
     type: "Projet de fin d'étude | STELLANTIS",
     periode: '07 mars - 31 août 2022',
-    sujet: 'Automatisation de la conception des architectures électroniques électriques pour les fonctions de service élémentaire :',
+    sujet:
+      'Automatisation de la conception des architectures électroniques électriques pour les fonctions de service élémentaire :',
     description: [
       'Génération des vues fonctionnelles et organico-fonctionnelles.',
-      "Visualisation des interactions entre les sous-systèmes et les Fonctions Allouables.",
-      "Identification des Fonctions Allouables et leurs appartenances aux calculateurs.",
+      'Visualisation des interactions entre les sous-systèmes et les Fonctions Allouables.',
+      'Identification des Fonctions Allouables et leurs appartenances aux calculateurs.',
       "Réalisation d'une interface homme-machine en utilisant PyQt et Python.",
+    ],
+  },
+  {
+    type: "Stage d'application | ONEE",
+    periode: '15 juillet - 15 septembre 2021',
+    sujet: 'Protection du réseau électrique :',
+    description: [
+      'Généralités et constitution du réseau électrique.',
+      'Découvrir les différents types de protection.',
     ],
   },
   {
@@ -134,7 +149,7 @@ const experiences = [
     periode: '15 juillet - 15 août 2020',
     description: [
       "Description physique d'un faisceau électrique pour l'automobile.",
-      "Processus de fabrication des faisceaux."
+      'Processus de fabrication des faisceaux.',
     ],
   },
 ];

@@ -26,13 +26,13 @@ const top = {
         value: 'Ifechtalene neighborhood, Demnate',
       },
     ],
-    // [
-    //   {
-    //     image:
-    //       'https://icon-library.com/images/linked-in-icon-png/linked-in-icon-png-7.jpg',
-    //     value: 'www.linkedin.com/in/brahim-sadik-ab4364201',
-    //   },
-    // ],
+    [
+      {
+        image:
+          'https://icon-library.com/images/linked-in-icon-png/linked-in-icon-png-7.jpg',
+        value: 'www.linkedin.com/in/brahim-sadik-ab4364201',
+      },
+    ],
   ],
 };
 
@@ -139,8 +139,16 @@ const competences = {
 
 const experiences = [
   {
+    type: 'Technical Support Engineer | PercallGroup',
+    periode: '01 August - Present',
+    description: [
+      'Providing support for PTC clients regarding Creo Parametric CAD SOFTWARE (installation and core functionality)',
+      'Handling cases (Tickets), using salesforce plateform',
+    ],
+  },
+  {
     type: 'Internship | Capgemini Engineering',
-    periode: '18 may - 18 august 2022',
+    periode: '18 May - 18 August 2022',
     sujet:
       'Build a full stack application to calculate co2 emissions related to company activities',
     description: [
@@ -153,7 +161,7 @@ const experiences = [
   },
   {
     type: 'Project Of End Of Studies Internship | AIC Métallurgie',
-    periode: '01 april - 01 august 2021',
+    periode: '01 April - 01 August 2021',
     sujet: 'Propose a real-time control method for welds',
     description: [
       'Studied the welding process and the control methods used within the company',
@@ -161,14 +169,14 @@ const experiences = [
       'Provided a non-destructive method for real-time control, using industrie 4.0 concepts and artificial intelligence',
     ],
   },
-  {
-    type: 'Internship | SOFT',
-    periode: '15 jully - 15 august 2019',
-    description: [
-      'Logistics Departement',
-      'I helped with inventory management, and participated in the reorganization of warehouses and their tracing',
-    ],
-  },
+  // {
+  //   type: 'Internship | SOFT',
+  //   periode: '15 Jully - 15 August 2019',
+  //   description: [
+  //     'Logistics Departement',
+  //     'I helped with inventory management, and participated in the reorganization of warehouses and their tracing',
+  //   ],
+  // },
 ];
 
 export { top, formation, projets, langues, interet, competences, experiences };
